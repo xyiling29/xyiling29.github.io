@@ -6,7 +6,7 @@
   <link href="http://xyiling29.github.io/atom.xml" rel="self"/>
   
   <link href="http://xyiling29.github.io/"/>
-  <updated>2025-12-10T06:52:56.136Z</updated>
+  <updated>2025-12-12T08:38:23.897Z</updated>
   <id>http://xyiling29.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>双指针循环链表的数学内在</title>
+    <link href="http://xyiling29.github.io/2025/12/12/%E5%8F%8C%E6%8C%87%E9%92%88%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8%E7%9A%84%E6%95%B0%E5%AD%A6%E5%86%85%E5%9C%A8/"/>
+    <id>http://xyiling29.github.io/2025/12/12/%E5%8F%8C%E6%8C%87%E9%92%88%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8%E7%9A%84%E6%95%B0%E5%AD%A6%E5%86%85%E5%9C%A8/</id>
+    <published>2025-12-12T08:30:06.000Z</published>
+    <updated>2025-12-12T08:38:23.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>快慢指针是判断循环链表的常用方法之一。<br>快慢指针的原理是：快指针每次移动两步，慢指针每次移动一步，如果链表有环，那么快慢指针最终会相遇。</p><p>同时，可以依靠快慢指针找到环的入口节点。</p><ul><li>当 <code>slow</code> 和 <code>fast</code> 在环中相遇时，记录下这个相遇点。</li><li>将 <code>slow</code> 指针重置到链表头节点。</li><li>保持 <code>fast</code> 指针在相遇点不动。</li><li>然后，让 <code>slow</code> 和 <code>fast</code> 同时以每次一步的速度前进。</li><li>当它们再次相遇时，这个相遇点就是链表的环入口节点</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;快慢指针是判断循环链表的常用方法之一。&lt;br&gt;快慢指针的原理是：快指针每次移动两步，慢指针每次移动一步，如果链表有环，那么快慢指针最终会相遇。&lt;/p&gt;
+&lt;p&gt;同时，可以依靠快慢指针找到环的入口节点。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当 &lt;code&gt;slow&lt;/code&gt; 和 &lt;c</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>线代基础</title>
